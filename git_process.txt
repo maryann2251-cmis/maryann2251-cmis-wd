@@ -1,0 +1,14 @@
+To create a new file and clone it to your repository:
+1.Open terminal(the black box at the bottom left corner of the screen)
+2.Clone your repository by typing this command in terminal:
+git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+3. press enter
+4. When it is done cloning, you should see the words "done", "100%" 
+5. click on the "menu" bar and click on the green folder
+6. You should see your repository folder in the green folder
+7. Open the repository folder and right click-"create empty document"
+8. Edit the document however you want, then save the file
+9. Type    cd filename   Then type:   git add filename   :in terminal(press enter)
+10.Then type   git commit -m "Commit Message"     ***The commit message is a brief description of what you edited on the file (make sure to put description inside quotation marks)
+11. Now type    git push   (press enter).   This would save the file to github.com
+12. Go to your github repository and refresh the page. You should see the file you created on github
