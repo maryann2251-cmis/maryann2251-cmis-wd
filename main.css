@@ -1,4 +1,32 @@
-h1{
-	color:#6600cc}
-main{}
-footer{}
+h1 {
+	color:#6600cc;
+	background-color:#ffff99;
+	border-style: solid;
+	font-family: Courier New;
+	font-style: normal;
+	font-size: 40px;
+}
+h2 {d
+	color:#00ffff;
+	background-color:#ffccff;
+	border-style: dotted;
+	font-family: Verdana;
+	font-style: italic;
+	font-size: 25px;
+}
+main {
+	color:#000099;
+	background-color:#66ccff;
+	border-style: dotted solid;
+	font-family: Georgia;
+	font-style: oblique;
+	font-size: 20px;
+}
+footer {
+	color:#cc0099;
+	background-color:#99ff99;
+	border-style: dotted solid double dashed;
+	font-family:Courier New;
+	font-style: normal;
+	font-size: 15px;
+}
