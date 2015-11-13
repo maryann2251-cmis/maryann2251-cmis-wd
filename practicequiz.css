@@ -1,0 +1,18 @@
+h1 {
+	color:#ffff66; 
+	background-color:#669900;
+	border-style: none;
+	font-style: italic;
+}
+h2{
+	color: blue;
+	background-color:yellow;
+}
+main{
+	border-style: dotted;
+}
+footer{
+}
+header{
+	color:blue;
+	background-color:yellow;
