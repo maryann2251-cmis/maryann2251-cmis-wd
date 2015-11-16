@@ -1,0 +1,45 @@
+h1 {
+	color:yellow;
+	background-color:green;
+	border-bottom-style:dashed ;
+	border-top-style: none;
+	font-family: "Courier New";
+	font-style: italic;
+	font-size: 40px;
+}
+header {
+	color: blue;
+	background-color: red;
+	border-bottom-style: dashed;
+	border-width: 7px;
+	border-color: yellow;
+	font-style: italic;
+}
+main {
+	color: blue;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: none;
+	border-width: 10px;
+	border-color: orange;
+	font-family: Georgia;
+}
+footer {
+	color: blue;
+	border-top-style: solid;
+	border-top-color: black;
+	border-left-style: solid;
+	border-left-color: red;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-right-width: 10px;
+	border-bottom-style: none;
+	font-family:"Courier New";
+	font-style: normal;
+	font-size: 15px;
+}
+p { 
+	color: yellow;
+	background-color: purple;
+}
+
