@@ -4,12 +4,14 @@ Terminal Commands
 ls <directory name>:  List contents of a directory
 cd: Go home.
 cd <directory name>:  Change directory
-cd ..: Go up
+cd ..  : Go up
 cat <file name>: View the contents of a file
 gedit <file name> &
 Git Commands
 clear
 python -m SimpleHTTPServer : Open Development Server
+localhost:8000    :URL for development server
+
 
 git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-to-your-repo
 git clone --config="http.proxy=http://maryann2251:purple2@192.168.2.1:8080" https://github.com/maryann2251-cmis/maryann2251-cmis-wd.git
@@ -21,14 +23,20 @@ git push
 http: Hyper Text Transfer Protocol
 sftp maryann2251@cmis-hsteacher 
 sftp: Security File Transfer Protocol
+exit  :leave sftp
 
 pwd: shows the Present Working Directory
 !ls: Shows content of MY machine (repository)
 put <filename>: Upload files from repository to teacher's machine
 rm <filename> :remove file from teacher's machine
 cmis-hsteacher/~maryann2251/  :shows the production server
+put <filename>  :  Upload a file to sftp
+rm <filename>  :  Remove a file from sftp
 put * : upload everything
 rm * : remove everything
 put *.txt  :only upload files ending with .txt
 
 http://www.w3schools.com/cssref/css_websafe_fonts.asp  :Websafe fonts link
+
+mkdir <folder name>  : Make a folder in repository
+rmdir <folder name>  : Remove a folder (you have to remove all the content in a folder to delete it
