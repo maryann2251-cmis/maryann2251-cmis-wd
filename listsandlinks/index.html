@@ -2,32 +2,81 @@
 <html>
 	<head>
 		<title>
-			
+			Unit 5
 		</title>
 		<meta charset="utf-8"/>
+		<h1>
+			How to Create a New Webpage on the Production Server
+		</h1>
 	</head>
 	<body>
 		<header>
 		</header>
 		<nav>
+			<ul>
+				<li>
+					<a href="http://www.w3schools.com/">W3Schools
+					</a>
+				</li>
+				<li>
+					<a href="https://teamtreehouse.com/tracks/web-design">TeamTreeHouse
+					</a>
+				</li>	
+				<li>
+					<a href="http://www.webdesign.org/">Webdesign.org
+					</a>
+				</li>	
+				<li>
+					<a href="http://www.777designz.com/">777Studio
+					</a>
+				</li>
+				<li>
+					<a href="http://www.computerhope.com/starthtm.htm">ComputerHope
+					</a>
+				</li>
+				<li>
+					<a href="http://cmis-hsteacher/~maryann2251/">Home
+					</a>
+				</li>
+			</ul>
 		</nav>
 		<main>
 			<ol type="1">
 				<li>
-					Create an html and a css file in 						repository by typing    					gedit filename &   in terminal 
+					Create an html and a css file in the  						repository by typing    					gedit filename &   in terminal 
 				</li>
 				<li>
 					Edit the html file and css file and 						validate the code
 				</li>
 				<li>
-					Type in   git add filename   in 					terminal
+					While editing, view your work on your 						development server by typing   						python -m SimpleHTTPServer   in 					terminal, and typing in  						localhost:8000 on the URL bar on the 						web
 				</li>
 				<li>
-					View the production server
+					When you finish editing, save the 						files and type in    						sftp (your computer's username)-(the 						computer you are transfering to). When 						you type this command in terminal, 						made sure you cd to your repository 						folder
+				</li>
+				<li>
+					When you go to sftp, type in your 						password and then cd to your public 						html folder
+				</li>
+				<li>
+					type this command   put filename  to 						upload the files from your computer to 						sftp
+				</li>
+				<li>
+					Now that the file is saved in the 						public html folder, type in   						cmis-hsteacher/~username1234    					in the URl bar on the web
+				</li>
+				<li>
+					You should be able to view your 					product in the production server
 				</li>
 					
 					
 			</ol>
+			<article>
+				<h2>
+					Unit 5
+				</h2>
+				<p>
+					The purpose of this assignment is to know the difference between an "ordered list" and an "unordered list" in html. It also  how to add hyper links in the "nav" element of the "body" 
+				</p>
+			</article>
 		</main>
 		<footer>
 		</footer>
