@@ -11,6 +11,7 @@ Git Commands
 clear
 python -m SimpleHTTPServer : Open Development Server
 localhost:8000    :URL for development server
+ctrl+c   :Stop the server
 
 
 git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-to-your-repo
