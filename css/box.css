@@ -1,34 +1,51 @@
+body {
+	margin: 15px;
+	background-color: #ccffff;
+}
+
 h1{
-	color: red;
+	color: #cc0000;
 	font-size: 45px;
 	font-style: italic;
+	border: solid;
+	border-width: 20px;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+h2 {
+	color:#9966ff;
 }
 
 ul li{
-	color: #F0B1E6;
+	color: #ff66ff;
 }
 
 tr ~ tr{
 	color: blue;
 }
 
+tr > th{
+	color: #3FD3D1;
+	background-color:#ffffff; 
+}
+
 table{
-	border: 1px solid black;
 	width: 200px;
 	margin: 25px;
 	padding: 25px;
 	background-color: yellow;
-	height: 150px;
+	height: 200px;
 }
 
-th, td{
-	border: 1px;
+table, th, td {
+	border: 1px solid black;
 }
+
 footer{
 	border-style: double;
 	border-color: purple;
 }
 
-tr > th{
-	color: #3FD3D1;
-}
+
