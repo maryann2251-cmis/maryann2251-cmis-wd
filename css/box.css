@@ -23,12 +23,21 @@ ul li{
 }
 
 tr ~ tr{
-	color: blue;
+	color: #666699;
+}
+
+main+footer {
+	color:green;
 }
 
 tr > th{
 	color: #3FD3D1;
 	background-color:#ffffff; 
+}
+
+tr{
+	color: #33cc33;
+	font-family: serif;
 }
 
 table{
@@ -45,7 +54,7 @@ table, th, td {
 
 footer{
 	border-style: double;
-	border-color: purple;
+	border-color: #993300;
 }
 
 
