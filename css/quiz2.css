@@ -1,0 +1,53 @@
+h1{
+	border: solid;
+	border-color: yellow;
+	color: black;
+}
+
+header{
+	background-color: red;
+	padding: 25px;
+	color: white;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+table{
+	background-color: white;
+	margin: 65px;
+}
+
+tr>th{
+	background: yellow;
+}
+
+nav{
+	margin: 65px;
+	border: solid;
+}
+
+main{
+	background: gray;
+}
+
+h2+p{	
+	margin: 65px;
+	color: black;
+	background: white;
+}
+
+p{
+	margin: 65px;
+	color: white;
+	background: black;
+}
+
+footer>p{
+	border: dashed;
+	margin: 15px;
+	border-color: blue;
+	background-color: blue;
+	
+}
