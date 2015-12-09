@@ -45,6 +45,8 @@ rmdir <folder name>  : Remove a folder (you have to remove all the content in a 
 <a href="link">
 </a>
 
+&#169;2015 Mary Ann-CMIS Web Design
+
 Selector Combinators:
 -descendant selector(space)
 -child selector(>)
