@@ -1,0 +1,32 @@
+h1{
+	color: #99ccff;
+	background: blue;
+	height: 150px;
+}
+nav{
+	width: 200px;
+	outline: #cc0066 solid 1px; 
+	float: left;
+}
+main{
+	margin-left: 201px;
+	outline: #cc0066 solid 1px;
+	height: 1200px;
+}
+footer{
+	color:#336600;
+	background:#00cc99;
+	clear: left;
+	outline: #336600 solid 1px;
+}
+img{
+	float: left;	
+}
+h2{
+	clear: left;
+	color: #00cc99;
+}
+note{
+	color: #cc0066;
+}
+
