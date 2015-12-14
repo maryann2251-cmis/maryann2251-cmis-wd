@@ -1,6 +1,6 @@
 h1{
-	color: #99ccff;
-	background: blue;
+	color: white;
+	background-image: url("http://thumbs.dreamstime.com/z/abstract-blue-music-background-star-vector-eps-34806669.jpg");
 	height: 150px;
 }
 nav{
@@ -12,6 +12,7 @@ main{
 	margin-left: 201px;
 	outline: #cc0066 solid 1px;
 	height: 1200px;
+	background-image: url("http://www.musicgraphicsgalore.net/graphics/musicbg54.gif")
 }
 footer{
 	color:#336600;
@@ -26,7 +27,13 @@ h2{
 	clear: left;
 	color: #00cc99;
 }
-note{
+h2.red{
 	color: #cc0066;
+	background: #ffcccc;
+}
+
+h2.green{
+	color: #336600;
+	background: #00cc99;
 }
 
