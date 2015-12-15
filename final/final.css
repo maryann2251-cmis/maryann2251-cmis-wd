@@ -22,6 +22,8 @@ footer{
 }
 img{
 	float: left;	
+	margin-left: 20px;
+	margin-right: 20px;
 }
 h2{
 	clear: left;
@@ -36,4 +38,6 @@ h2.green{
 	color: #336600;
 	background: #00cc99;
 }
+
+
 
